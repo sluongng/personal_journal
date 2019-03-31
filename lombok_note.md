@@ -1,3 +1,5 @@
+# Remove Spring Autowired with Lombok
+
 Many of you are familiar with the look of this
 
 ```java
@@ -156,7 +158,7 @@ public class MyClass {
 }
 ```
 
-Q: Wait a minute... now I have 2 `INotificationService` implementation to autowire, that would be a conflict without @Qualifier
+Q: Wait a minute... now I have 2 `INotificationService` implementation to autowire, that would be a conflict without `@Qualifier`
 
 A: Good eyes, previously this is a hard problem to solve, but look at this magic since lombok version `1.18.4`
 
